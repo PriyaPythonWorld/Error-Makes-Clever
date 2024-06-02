@@ -1,0 +1,7 @@
+class laptop:
+    def __init__(self):
+        print("demo constructor")
+    def display(self):
+        print("Display")
+
+hp = laptop()
