@@ -1,0 +1,30 @@
+class goa:
+    name = "aaaaaaaaaaaaa"
+    drink = ""
+    def party(self):
+        print("Lets party")
+    def beach(self):
+        print("Enjoying the beach")
+
+ramesh = goa()  #creating object for ramesh
+suresh = goa()  #creating object for suresh
+
+ramesh.name = "Ramesh"
+print(ramesh.name)
+
+suresh.name = "Suresh"
+print(suresh.name)
+
+
+print(ramesh.name)
+print(suresh.name)
+
+ramesh.party()
+suresh.beach()
+
+ramesh.drink = "Yes"
+print(f"Ramesh drink: ", ramesh.drink)
+
+suresh.drink = "No"
+print(f"Suresh drink: ", suresh.drink)
+
