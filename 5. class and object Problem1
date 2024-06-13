@@ -1,0 +1,27 @@
+class student():
+    def __init__(self):
+        self.name = "m"
+        self.register_num = "1"
+    def display(self):
+        print("Name:", self.name)
+        print("Register Num:", self.register_num)
+
+s1 = student()
+s2 = student()
+
+s1.name = "Raksha"
+s1.register_num = "1417"
+
+s2.name = "Achu"
+s2.register_num = "1907"
+
+print(s1.name)
+print(s1.register_num)
+
+print(s2.name)
+print(s2.register_num)
+
+s1.display()
+s2.display()
+
+
